@@ -109,9 +109,14 @@ a:visited{
 }
 .login{
     position:relative;
-    width:300px;
-    height:300px;
+    width:230px;
+    height:100px;
     background-color:azure;
     margin:0 auto;
     top:200px;
+    padding:20px 10px 0px 20px;
+}
+.login input{
+    padding:5px;
+    font-size:10px;
 }
