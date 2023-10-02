@@ -1,7 +1,7 @@
 <?php
 $l = $_POST["login"];
 $p = $a = $_POST["password"];
-echo "$l HELLO $p";
+echo "Hello user $l, Password used $p";
 
 ?>
 
