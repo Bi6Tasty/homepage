@@ -31,11 +31,11 @@
         </div>
         <div id="content">
             <div class="login">
-                <form>
-                    <input type="text" placeholder="User"/>
-                    <input type="password" placeholder="Password"/>
+                <form action="proc.php" method="POST">
+                    <input name="login" type="text" placeholder="User"/>
+                    <input name="password" type="password" placeholder="Password"/>
                     <br/><br/>
-                    <button>Login</button>
+                    <button type="submit">Login</button>
                 </form>
             </div>
         </div>
