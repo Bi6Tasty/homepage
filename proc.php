@@ -1,9 +1,6 @@
 <?php
 $l = $_POST["login"];
-$p = $a $_POST["password"];
-
-
-
+$p = $a = $_POST["password"];
 echo "$l HELLO $p";
 
 ?>
