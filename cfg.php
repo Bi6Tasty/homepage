@@ -6,7 +6,7 @@ $db = "projekts2023";
 
 
 
-$mysqli = new mysqli($localhost,$my_user,$my_password,$my_db);
+$mysqli = new mysqli($servername,$username,$password,$db);
 
 // Check connection
 if ($mysqli -> connect_errno) {
