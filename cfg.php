@@ -1,12 +1,12 @@
 <?php
 $servername = "localhost";
-$username = "username";
-$password = "password";
-$db = ;
+$username = "root";
+$password = "";
+$db = "projekts2023";
 
 
 
-$mysqli = new mysqli("localhost","my_user","my_password","my_db");
+$mysqli = new mysqli($localhost,$my_user,$my_password,$my_db);
 
 // Check connection
 if ($mysqli -> connect_errno) {
