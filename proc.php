@@ -8,7 +8,7 @@ if (mysql_num_row($result) > 0){
     echo "veri gud";
 }
 else{
-    echo "shit, try again":
+    echo "shit, try again";
 }
 
 ?>
