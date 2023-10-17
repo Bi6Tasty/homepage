@@ -7,3 +7,4 @@ $db = "projekts2023";
 
 
 $mysqli = new mysqli($servername,$username,$password,$db);
+?>
