@@ -10,7 +10,6 @@ if (mysqli_num_row($result) > 0){
 else{
     echo "shit, try again";
 }
-
 ?>
 
 
