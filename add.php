@@ -6,6 +6,6 @@ $l = $_POST["login"];
 $p = md5($_POST["password"]);
 
 include("cfg.php");
-$mysqli->query("UPDATE `idk` SET `id`=null,`name`='$v',`sname`='$u',`login`='$l',`password`='$p'");
+$mysqli->query("INSERT `idk` SET `id`=null,`name`='$v',`sname`='$u',`login`='$l',`password`='$p'");
 
 ?>
